@@ -1,7 +1,7 @@
 <script lang="ts">
-    import ProjectsView from "../components/ProjectsView.svelte";
+    import ProjectsSection from "../components/ProjectsSection.svelte";
     import HeroSection from "../components/HeroSection.svelte";
-    import TechStack from "../components/TechStack.svelte";
+    import ToolsSection from "../components/ToolsSection.svelte";
 
     let projectsSection: HTMLElement | null = null;
 
@@ -13,7 +13,7 @@
 <main>
     <div class="flex flex-col overscroll-auto">
         <HeroSection projectsButtonClick={scrollToProjects}/>
-        <TechStack/>
-        <div bind:this={projectsSection}><ProjectsView/></div>
+        <ToolsSection/>
+        <div bind:this={projectsSection}><ProjectsSection/></div>
     </div>
 </main>

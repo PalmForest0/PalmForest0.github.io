@@ -8,11 +8,11 @@
 </script>
 
 {#snippet project(project: ProjectProperties)}
-    <Card.Root class="w-96 h-54">
-        <Card.Header>
+    <Card.Root class="w-84 h-54">
+        <Card.Header class="min-h-30">
             <Card.Title class="font-semibold text-2xl"><a href={project.link} target="_blank" rel="noopener noreferrer">{project.name}</a></Card.Title>
             <Card.Description>{project.description}</Card.Description>
-            <Card.Action><img class="w-30 h-30" src={project.image} alt={project.name} /></Card.Action>
+            <Card.Action><img class="w-30 h-auto" src={project.image} alt={project.name} /></Card.Action>
         </Card.Header>
         <Card.Footer>
             <div class="flex gap-3">
@@ -24,9 +24,9 @@
     </Card.Root>
 {/snippet}
 
-<section class="container mx-auto px-4 py-16">
+<section class="container m-auto p-4 py-16">
     <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-balance mb-10">Projects</h1>
-    <div class="flex flex-wrap gap-6 md:justify-start justify-center">
+    <div class="flex flex-wrap flex-row gap-6 md:justify-start justify-center">
         {#each projects as projectDetails}
             {@render project(projectDetails)}
         {/each}

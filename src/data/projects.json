@@ -8,5 +8,35 @@
       { "label": "React", "color": "#25C4DC"},
       { "label": "TypeScript", "color": "#017ACB" }
     ]
+  },
+  {
+    "name": "This Website",
+    "description": "A portfolio website for showing off my work",
+    "image": "/profile-picture.png",
+    "link": "https://github.com/PalmForest0/PalmForest0.github.io",
+    "tags": [
+      { "label": "Svelte", "color": "#FF3E00"},
+      { "label": "TypeScript", "color": "#017ACB" }
+    ]
+  },
+  {
+    "name": "TerraScraper",
+    "description": "tModLoader utility mod for extracting Terraria's assets",
+    "image": "https://github.com/PalmForest0/TerraScraper/blob/main/icon.png?raw=true",
+    "link": "https://github.com/PalmForest0/TerraScraper",
+    "tags": [
+      { "label": ".NET", "color": "#512BD4"},
+      { "label": "tModLoader", "color": "#17853A"}
+    ]
+  },
+  {
+    "name": "UselessRoles",
+    "description": "Customizable Among Us roles mod built from scratch",
+    "image": "/projects/UselessRoles.png",
+    "link": "https://github.com/PalmForest0/PalmForest0.github.io",
+    "tags": [
+      { "label": ".NET", "color": "#512BD4"},
+      { "label": "Unity", "color": "#000000" }
+    ]
   }
 ]

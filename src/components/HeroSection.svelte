@@ -7,9 +7,8 @@
 
 <section class="container mx-auto px-4 pt-16 pb-4">
     <div class="flex flex-col-reverse md:flex-row items-center gap-8">
-        <div class="flex-1 space-y-10">
+        <div class="flex-1 space-y-10 md:max-w-[60%]">
             <h1 class="text-4xl md:text-6xl font-bold tracking-tight">Hi, I'm <span>PalmForest</span></h1>
-<!--            <p class="text-xl md:text-2xl text-accent-foreground">Software Developer</p>-->
             <p class="text-lg text-muted-foreground max-w-[600px]">
                 I am a programmer student who does whatever looks fun.
                 Currently working on <span class="text-accent-foreground">Web Development</span> and <span class="text-accent-foreground">Game Modding.</span>
@@ -23,7 +22,7 @@
             </div>
         </div>
 
-        <div class="flex-shrink-0">
+        <div class="flex-shrink-0 md:flex-1 flex md:justify-start">
             <div class="relative w-[260px] h-[260px] md:w-[300px] md:h-[300px]">
                 <img src="/profile-picture.png" alt="Profile" class="rounded-full object-cover w-full h-full shadow-lg"/>
             </div>
