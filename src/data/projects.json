@@ -1,0 +1,12 @@
+[
+  {
+    "name": "TerraWorkbench",
+    "description": "Static crafting recipe browser for Terraria",
+    "image": "https://github.com/PalmForest0/terra-workbench/raw/main/public/images/icon-large.png",
+    "link": "https://github.com/PalmForest0/terra-workbench",
+    "tags": [
+      { "label": "React", "color": "#25C4DC"},
+      { "label": "TypeScript", "color": "#017ACB" }
+    ]
+  }
+]
