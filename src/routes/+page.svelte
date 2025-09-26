@@ -10,7 +10,7 @@
     }
 </script>
 
-<main>
+<main class="min-h-screen bg-gradient-to-b from-slate-200 to-slate-50 dark:from-slate-900 dark:to-background transition-colors duration-300">
     <div class="flex flex-col overscroll-auto">
         <HeroSection projectsButtonClick={scrollToProjects}/>
         <ToolsSection/>

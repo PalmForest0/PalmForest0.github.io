@@ -1,7 +1,7 @@
 [
   {
     "name": "TerraWorkbench",
-    "description": "Static crafting recipe browser for Terraria",
+    "description": "Static crafting recipe browser for Terraria.",
     "image": "https://github.com/PalmForest0/terra-workbench/raw/main/public/images/icon-large.png",
     "link": "https://github.com/PalmForest0/terra-workbench",
     "tags": [
@@ -11,7 +11,7 @@
   },
   {
     "name": "This Website",
-    "description": "A portfolio website for showing off my work",
+    "description": "A portfolio website for showing off my work.",
     "image": "/profile-picture.png",
     "link": "https://github.com/PalmForest0/PalmForest0.github.io",
     "tags": [
@@ -21,7 +21,7 @@
   },
   {
     "name": "TerraScraper",
-    "description": "tModLoader utility mod for extracting Terraria's assets",
+    "description": "tModLoader utility mod for extracting Terraria's assets.",
     "image": "https://github.com/PalmForest0/TerraScraper/blob/main/icon.png?raw=true",
     "link": "https://github.com/PalmForest0/TerraScraper",
     "tags": [
@@ -30,10 +30,29 @@
     ]
   },
   {
+    "name": "WheresMyLib",
+    "description": ".NET library for reading and modifying the game files of Where's My Water?",
+    "image": "/projects/WheresMyLib.png",
+    "link": "https://github.com/PalmForest0/WheresMyLib",
+    "tags": [
+      { "label": ".NET", "color": "#512BD4"}
+    ]
+  },
+  {
+    "name": "DuckyEditor",
+    "description": "Online level editor for Where's My Water?",
+    "image": "/projects/DuckyEditor.png",
+    "link": "https://github.com/PalmForest0/ducky-editor",
+    "tags": [
+      { "label": "React", "color": "#25C4DC"},
+      { "label": "TypeScript", "color": "#017ACB" }
+    ]
+  },
+  {
     "name": "UselessRoles",
-    "description": "Customizable Among Us roles mod built from scratch",
+    "description": "Simple Among Us custom roles mod built from scratch.",
     "image": "/projects/UselessRoles.png",
-    "link": "https://github.com/PalmForest0/PalmForest0.github.io",
+    "link": "https://github.com/PalmForest0/UselessRoles",
     "tags": [
       { "label": ".NET", "color": "#512BD4"},
       { "label": "Unity", "color": "#000000" }
