@@ -12,7 +12,7 @@
     </Card.Root>
 {/snippet}
 
-<section class="container px-4 py-16 mx-[5vw]">
+<section class="container px-4 py-16 md:mx-[5vw]">
     <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-balance mb-10">Tools</h1>
     <div class="flex flex-wrap gap-6">
         {@render icon({ text: ".NET", imagePath: "/icons/dotnet.svg" })}

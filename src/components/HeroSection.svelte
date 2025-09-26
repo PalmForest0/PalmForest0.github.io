@@ -5,7 +5,7 @@
     export let projectsButtonClick: () => void;
 </script>
 
-<section class="container mx-[5vw] px-4 pt-16 pb-4">
+<section class="container md:mx-[5vw] px-4 pt-16 pb-4">
     <div class="flex flex-col-reverse md:flex-row items-center gap-8">
         <div class="flex-1 space-y-10 md:max-w-[60%]">
             <h1 class="text-4xl md:text-6xl font-bold tracking-tight">Hi, I'm <span>PalmForest</span></h1>

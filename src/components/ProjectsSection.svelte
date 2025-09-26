@@ -24,7 +24,7 @@
     </Card.Root>
 {/snippet}
 
-<section class="container mx-[5vw] p-4 py-16">
+<section class="container md:mx-[5vw] px-4 py-16">
     <h1 class="text-3xl md:text-4xl font-bold tracking-tight text-balance mb-10">Projects</h1>
     <div class="flex flex-wrap flex-row gap-6 md:justify-start justify-center">
         {#each projects as projectDetails}
